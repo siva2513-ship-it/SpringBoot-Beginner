@@ -19,3 +19,10 @@ nav a:hover { color: #FBBF24}
 .container {
   padding: 2px 16px;
 }
+
+.button {
+    button {
+        background-color: lightblue;
+        border:#1B8FA8;
+    }
+}
