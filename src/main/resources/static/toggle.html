@@ -19,13 +19,16 @@
 	</nav>
 
 	<div class="card">
-  		<img id ="myImage" src="/img/newImg.png" alt="Avatar" height="200px" width="200px">
+  		<img id ="userImage" src="/img/newImg.png" alt="Avatar" height="200px" width="200px">
 		<div class="container">
-    	    <h4><b>John Doe</b></h4> 
-    	    <h5>Male</h5>
+    	    <h4 id="userName"><b>John Doe</b></h4> 
+    	    <p id="userGender">Male</p>
   		</div>
 	</div>
-
+	<div class="button">
+		<button onClick="toggle()">Toggle</button>
+	</div>
 	<script src="/js/site.js"></script>
+    <script src="/js/toggle.js"></script>
 </body>
 </html>
