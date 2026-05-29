@@ -8,13 +8,11 @@ public class UserService{
 
     public UserService(){
         allUsers = new ArrayList<>();
+        allUsers.add(new User("John Doe", "/img/newImg.png", "Male", 1));
+        allUsers.add(new User("Jane Doe", "/img/newImg2.png", "Female", 2));
     }
 
     //C
-    public void addUser(String name, String gender, String image){
-        User newUser = new User(name, image ,gender, allUsers.size());
-        allUsers.add(newUser);
-    }
 
     //R
     public List<User> getAllUsers(){

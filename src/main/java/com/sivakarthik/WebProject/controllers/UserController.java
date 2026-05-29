@@ -17,9 +17,6 @@ public class UserController {
 
     public UserController() {
         userService = new UserService();
-
-        userService.addUser("John", "Male", "/images/newImg.png");
-        userService.addUser("Jane", "Female" , "/image/newImg2.png");
     }
 
     @GetMapping
