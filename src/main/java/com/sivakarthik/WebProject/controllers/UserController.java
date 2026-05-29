@@ -11,7 +11,7 @@ import com.sivakarthik.WebProject.model.User;
 import com.sivakarthik.WebProject.services.UserService;
 
 @RestController
-@RequestMapping("/users")
+@RequestMapping("/api/users")
 public class UserController {
     private UserService userService;
 
